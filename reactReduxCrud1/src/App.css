@@ -1,0 +1,86 @@
+.main {
+  height: 440px;
+  width: 350px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.btnCloseForm {
+  float: right;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.idLabel {
+  margin-left: 15px;
+  font-size: 19px;
+  margin-bottom: -20px;
+}
+.idInput {
+  width: 300px;
+}
+.nameLabel {
+  margin-left: 15px;
+  font-size: 19px;
+}
+.locationLabel {
+  margin-left: 15px;
+  font-size: 19px;
+}
+.statusLabel {
+  margin-left: 15px;
+  font-size: 19px;
+}
+.RadioButtons {
+  margin-left: 13px;
+}
+.submit {
+  margin-top: 15px;
+  margin-right: -43px;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+  background-color: blue;
+}
+.Wdt {
+  border-radius: 20px;
+  width: 1000px;
+  height: 200px;
+}
+.tablestatus {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  width: 40px;
+}
+.labelActive,
+.labelInactive {
+  margin-top: 3px;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+.btn {
+  margin-right: 50px;
+}
+.btn-Search {
+  margin-left: 8px;
+}
+.fa-solid {
+  margin-right: 8px;
+}
+.fa-regular {
+  margin-right: 8px;
+}
+.headerStatus {
+  width: 45%;
+}
+#search {
+  width: 350px;
+  border-color: black;
+}
+.pagination-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 450px;
+}
+

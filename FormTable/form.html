@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./table.css">
+    <script src="./form.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Html Form</title>
+  </head>
+  <body>
+    <center>
+    <div id="div-one" class="div-one">
+        <main class="main">
+
+    <form   action="#" id="form"  >
+      <button style="float: right;" class="" id="close" onclick="closeForm()">x</button>
+                
+        <div class="heading">Add Record</div>
+
+        <br />
+        <div>
+          <label for="locationNam" id="locationName" class="name"><strong>Location Name</strong></label>
+          <br /><br />
+          <!-- <input class="name-textarea" type="text" name="" id="" cols="50" rows="5" required /> -->
+          <textarea   class="name-textarea" name="" id="id_name_textarea" cols="50" rows="5" required></textarea>
+          <br /><br />
+
+          <label for="locationDes"  id="locationDesc" class="description"><strong>Location Description</strong></label>
+          <br /><br />
+          <textarea  class="description-textarea" name="" id="id_description_textarea" cols="50" rows="10" required></textarea>
+          <br /><br />
+          
+
+          <div>
+          <label for= "status">Status:</label><br /><br />
+          <input type="radio" id="active" name="status" value="Active" />
+          <label for="Active">Active</label>
+          <input type="radio" id="inactive" name="status" value="Inactive" />
+          <label for="Inactive">Inactive</label>
+        </div>
+          <br />  
+          
+          <button   autofocus id="btn-table"  onclick="event.preventDefault();myFunction();"  class="submit" type="submit" value="submit">Add</button>
+        </div>
+        
+    </form>
+</main>
+</div>    
+    </center>
+
+
+
+
+
+
+   <section id="section">
+    <br><br><br><br><br>
+    <div id="navbar" >
+        <button  autofocus onclick="popup()"  id="navbar-left" class="navbar-left">
+            <div class="plus">+</div>
+            <div  type="submit"  class="navbar-left-button">Add</div>
+        </button>
+        <div>
+          <input type="text" id="search" onkeyup="search()" placeholder="Search" title="Type in a name">
+        </div>
+
+                  <div class="tablestatus">
+            <span><input  type="radio" id="activestatus" name="statusfilter" onchange="activeRadio()" value="Active" />Active</span>
+            <span><input  type="radio" id="inactivestatus" name="statusfilter" onchange="inactiveRadio()" value="Inactive" />Inactive</span>
+          </div>
+    </div>
+    <hr>
+    <br>
+    <table id="table" style="border-spacing:0 15px;
+                             border-radius:20px ;">
+        
+        <br>
+        <thead>
+        <tr>
+          <th>Sr. No</th>
+          <th>Id</th>
+          <th>Location Name</th>
+          <th>Location Description</th>
+          <th>Status</th>
+          <th id="action">Action</th>
+        </tr>  
+        </thead>
+        <tbody id="table-body">
+        <tr class="data" id="data">
+            <td>1</td>
+            <td>1</td>
+            <td>Neighborhood Health</td>
+            <td>Lorem Ipsum</td>
+            <td>-</td>
+            <td class="action">
+
+  <button style="color: blue;border: none;"  class="view" onClick="viw(this)"><i class="fa-solid fa-eye fa-1x" ></i>View</button>
+  <button style="color: green;border: none;" class="edt" onClick="editInfo(this)"><i class="fa-regular fa-pen-to-square"></i>Edit</button>
+  <button id="delete" style="color: red;border: none;"  class="dlt" onClick="dlt(this)"><i class="fa-solid fa-circle-xmark"></i>Delete</button>
+</td>
+
+
+</tr>
+</tbody>
+
+
+
+
+</form>
+</div>
+
+
+
+</table>
+<div class="footer">
+<tr>
+  <th>
+    <button
+      onclick="prevPage()"
+      id="btn_prev"
+      style="display: block"
+      >Prev</button>
+  </th>
+  <th colspan="4">
+    <span> page: <span id="page">1</span> </span>
+  </th>
+  <th>
+    <button
+      onclick="nextPage()"
+      id="btn_next"
+      style="display: block"
+      >Next</button>
+  </th>
+</tr>
+</div>
+  
+  
+</section>  
+
+
+  </body>
+</html>

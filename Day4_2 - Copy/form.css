@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    color: blue;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 29px;
+}
+.view{
+    color: blue;
+}
+#form{
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 500px;
+    height: 640px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 15px 50px 5px 50px;
+}
+.name , .description , .status{
+    font-size: large;
+    color: rgba(0, 0, 0, 0.62);
+}
+
+.submit{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.name-textarea , .description-textarea{
+    margin: 0px -14px;
+    padding: 15px;
+    border-radius: 36px;
+    background-color: #b8e2f278;
+    border: none;
+    outline: none;
+}
+#radio-buttons{
+    margin-left: -11px;
+    color: rgba(0, 0, 0, 0.62);
+}
+.radio-button{
+    margin: 0px 10px;
+    word-spacing: 16px;
+  }

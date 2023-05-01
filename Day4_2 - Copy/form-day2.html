@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./table.css">
+    <script src="./form.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+     <!-- <link rel="stylesheet" href="../s.s/base.css"> -->
+    <title>Html Form</title>
+  </head>
+  <body>
+    <center>
+    <div id="popup">
+        <main class="main">
+
+            <form   action="#" id="form"  >
+                
+        <div class="heading">Add Record</div>
+
+        <br />
+        <div>
+          <label for="" id="locationName" class="name"><strong>Location Name</strong></label>
+          <br /><br />
+          <!-- <input class="name-textarea" type="text" name="" id="" cols="50" rows="5" required /> -->
+          <textarea   class="name-textarea" name="" id="id-name-textarea" cols="50" rows="5" required></textarea>
+          <br /><br />
+
+          <label for="" id="locationDesc" class="description"><strong>Location Description</strong></label>
+          <br /><br />
+          <textarea  class="description-textarea" name="" id="id-description-textarea" cols="50" rows="10" required></textarea>
+          <br /><br />
+          
+          
+          <label for="" class="status" ><strong>Status:</strong></label>
+          <br /><br>
+          <div id="radio-buttons">
+          <input type="radio"  name="one" class="radio-button" />Active
+          <input type="radio"  name="one" class="radio-button" />Inactive
+        </div>
+          <br />  
+          
+          <button   onclick="myFunction()" class="submit" type="submit" value="clear">Add</button>
+        </div>
+        
+    </form>
+</main>
+</div>    
+    </center>
+
+
+
+
+
+
+   <section id="section">
+    <br><br><br><br><br>
+    <div id="navbar">
+        <button onClick="fullwindowpopup()" value="CLICK HERE"  class="navbar-left">
+            <div class="plus">+</div>
+            <div type="submit" class="navbar-left-button">Add</div>
+        </button>
+        <div class="navbar-right" style="margin-top: 11px;">
+            <input type="radio" name="" id="">
+            <label for="" >show inactive</label>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <table id="table" style="border-spacing:0 15px;
+                             border-radius:20px ;">
+        
+        <br>
+        <tbody>
+        <tr>
+            <th>Sr. No</th>
+            <th>Id</th>
+            <th>Location Name</th>
+            <th>Location Description</th>
+            <th id="action" colspan="3">Action</th>
+        </tr>  
+        
+        <tr class="data">
+            <td>1</td>
+            <td>2</td>
+            <td>Neighborhood Health</td>
+            <td>Lorem Ipsum</td>
+            <td style="color: blue;"><i class="fa-solid fa-eye fa-1x" ></i>View</td>
+            <td style="color: green;"><i class="fa-regular fa-pen-to-square"></i>Edit</td>
+            <td style="color: red;"><i class="fa-solid fa-circle-xmark"></i>Delete</td>
+        </tr>
+        </tbody>
+      
+
+        <!-- <div class="main-back disblank" id="view_data">
+          <form class="main text">
+             <div class="cut-button" onclick="closeBox()">x</div>
+             <label for="ID">ID</label>
+             <input type="number" class="text" id="ID_veiw_data" value="" disabled />
+
+             <label for="name">Location Name</label>
+             <input type="text" class="text" id="name_veiw_data" value="" disabled />
+
+             <label for="location_drcr">Location Description</label>
+             <textarea type="text" class="adress text" id="location_drcr_veiw_data" value="" disabled></textarea> -->
+      </form>
+    </div>
+
+
+    
+    </table>
+   
+    
+
+  </section>  
+
+
+  </body>
+</html>

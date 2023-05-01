@@ -1,0 +1,129 @@
+.main {
+  height: 540px;
+  width: 450px;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
+.btnCloseForm {
+  float: right;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.idLabel{
+  margin-left: 15px;
+  font-size: 19px;
+  margin-bottom: -20px;
+}
+
+.idInput {
+  margin-left: 1px;
+  width: 398px;
+}
+
+.nameLabel {
+  margin-left: 15px;
+  font-size: 19px;
+}
+.name-section-main{
+  display : flex;
+  justify-content: space-between;
+}
+
+.emailLabel {
+  margin-left: 15px;
+  font-size: 19px;
+}
+
+.statusLabel {
+  margin-left: 15px;
+  font-size: 19px;
+}
+
+.RadioButtons {
+  margin-left: 13px;
+}
+tr:nth-child(even){
+  background-color: rgba(28, 22, 22, 0.111);
+}
+.submit {
+  margin-top: 15px;
+  margin-right: -43px;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+  background-color: blue;
+}
+
+.Wdt {
+  border-radius: 20px;
+  width: 1100px;
+  height: 200px;
+}
+
+.tablestatus {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  width: 40px;
+}
+
+.labelMale,
+.labelFemale {
+  margin-top: 3px;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+.btn {
+  margin-right: 50px;
+}
+
+.btn-Search {
+  margin-left: 8px;
+}
+
+.fa-solid {
+  margin-right: 8px;
+}
+
+.fa-regular {
+  margin-right: 8px;
+}
+
+.headerStatus {
+  width: 40%;
+}
+
+#search {
+  width: 350px;
+  border-color: black;
+}
+
+.pagination-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 450px;
+}
+.form-male-input , .form-female-input{
+      width: 200px;
+}
+.state-select{
+  width: 400px;
+  height : 40px;
+  border:none;
+  outline:none;
+  padding:10px;
+}
+.stateLabel {
+  margin-left: 15px;
+  font-size: 19px;
+  margin-bottom:10px;
+  margin-top: 18px;
+}
+.state-select{
+  border-radius: 5px;
+}

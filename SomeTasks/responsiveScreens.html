@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .desk{
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        .tab{
+            display: none;
+            color: white;
+            background-color: green;
+        }
+        .mob{
+            display: none;
+            color: white;
+            background-color: blue;
+        }
+        @media screen and (max-width: 1024px) {
+            .desk{
+                display: none;
+            }
+            .tab{
+                display: block;
+            }
+            .mob{
+                display: none;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .desk{
+                display: none;
+            }
+            .tab{
+                display: none;
+            }
+            .mob{
+                display: block;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="desk">
+      <h1>Desktop</h1>
+      <p>
+         Desktop Screen
+      </p>
+    </div>
+    <div class="tab">
+      <h1>Tablet</h1>
+      <p>
+    Tablet Screen
+      </p>
+    </div>
+    <div class="mob">
+      <h1>Mobile</h1>
+      <p>
+        Mobile Screen
+      </p>
+    </div>
+  </body>
+</html>
